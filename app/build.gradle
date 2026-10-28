@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.sulaiman.camx'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.sulaiman.camx'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
